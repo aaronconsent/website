@@ -48,6 +48,7 @@ const industries = ["Banking", "Healthcare", "Legal", "Real Estate", "SaaS"];
 export default function Home() {
   return (
     <div className="space-y-20 pb-24">
+      {/* Hero */}
       <section className="relative overflow-hidden pt-14 sm:pt-20">
         <div className="absolute left-1/2 top-0 h-[480px] w-[480px] -translate-x-1/2 rounded-full bg-emerald-400/10 blur-[140px]" />
         <Container className="relative grid items-center gap-14 lg:grid-cols-[1.05fr_0.95fr]">
@@ -137,6 +138,7 @@ export default function Home() {
         </Container>
       </section>
 
+      {/* Problem statement */}
       <section className="py-6">
         <Container className="text-center">
           <h2 className="text-2xl font-semibold text-white sm:text-3xl">
@@ -151,6 +153,7 @@ export default function Home() {
         </Container>
       </section>
 
+      {/* Revenue leak stats */}
       <section>
         <Container>
           <div className="rounded-3xl border border-white/10 bg-[#0f1d32] px-8 py-10 shadow-xl shadow-black/30">
@@ -184,6 +187,7 @@ export default function Home() {
         </Container>
       </section>
 
+      {/* Risk comparison */}
       <section>
         <Container>
           <div className="text-center">
@@ -242,6 +246,7 @@ export default function Home() {
         </Container>
       </section>
 
+      {/* Compliant growth steps */}
       <section>
         <Container>
           <div className="text-center">
@@ -273,6 +278,7 @@ export default function Home() {
         </Container>
       </section>
 
+      {/* Pricing math */}
       <section>
         <Container>
           <div className="rounded-3xl border border-white/10 bg-[#0f1d32] p-8 shadow-xl shadow-black/30">
@@ -309,6 +315,7 @@ export default function Home() {
         </Container>
       </section>
 
+      {/* Industry focus */}
       <section>
         <Container>
           <div className="text-center">
@@ -329,6 +336,7 @@ export default function Home() {
         </Container>
       </section>
 
+      {/* Closing CTA */}
       <section>
         <Container>
           <div className="rounded-3xl bg-emerald-300 px-8 py-12 text-center text-slate-900 shadow-2xl shadow-emerald-300/30">
